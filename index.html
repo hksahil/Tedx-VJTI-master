@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>TEDx VJTI</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="landing-page">
+
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="sidenav-menu" onclick="sliderTrue()">
+          <i class="material-icons">menu</i>
+        </a>
+        <a class="navbar-brand" href="">
+          <img src="img/TEDx VJTI logo.jpeg" width="200" height="48" alt="">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="">
+                Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./events.html">
+                Events
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./speakers.html">
+                Speakers
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sponsors.html">
+                Partners
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./team.html">
+                Our Team
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="sidenav-slider">
+      <a class="navbar-brand" href="">
+        <img src="img/TEDx VJTI logo.jpeg" width="200" height="48" alt="">
+      </a>
+      <ul>
+        <li>
+          <a href="" class="active">
+            <i class="material-icons">home</i>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="./events.html">
+            <i class="material-icons">event</i>
+            Events
+          </a>
+        </li>
+        <li>
+          <a href="./speakers.html">
+            <i class="material-icons">person</i>
+            Speakers
+          </a>
+        </li>
+        <li>
+          <a href="./sponsors.html">
+            <i class="material-icons">zoom_out_map</i>
+            Sponsors
+          </a>
+        </li>
+        <li>
+          <a href="./team.html">
+            <i class="material-icons">mood</i>
+            Our Team
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="opacity-div" onclick="sliderFalse()">
+    </div>
+
+    <div class="background-img">
+      <img src="img/back5.jpg" class="img-fluid" alt="Responsive image">
+      <div class="card">
+        <h1 class="moving-text">
+          <span class="text text-1">Do schools kill creativity ?</span>
+          <span class="text text-2">How great leaders inspire action ?</span>
+          <span class="text text-3">Why we do what we do ?</span>
+        </h1>
+      </div>
+      <div id="video" video-url="https://www.youtube.com/embed/lmyZMtPVodo" onclick="myFunction()">
+        <span class="SPAN">
+          <a class="round-button">
+            <i class="material-icons">play_arrow</i>
+          </a>
+        </span>
+      </div>
+      <div id="myDIV">
+        <div class="embed-responsive embed-responsive-16by9" style="height:100%">
+          <iframe class="embed-responsive-item" src="" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-us">
+    <p class="title"> About Us</p>
+    <hr>
+    <div class="row cards-div-v">
+      <div class="col-12 offset-0 col-lg-12 offset-lg-0">
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <div class="card" style="border-color:rgb(217, 30, 24)">
+              <p class="card-title">What is TED?</p>
+              <p class="card-body">TED is a nonprofit devoted to Ideas Worth Spreading. It started out (in 1984) as a conference bringing together
+                people from three worlds: Technology, Entertainment, Design. Since then its scope has become ever broader.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card" style="border-color:#C95BB1">
+              <p class="card-title">Philosophy</p>
+              <p class="card-body">We believe passionately in the power of ideas to change attitudes, lives and ultimately, the world. So we’re
+                building here a clearinghouse that offers free knowledge and inspiration from the world’s most inspired thinkers,
+                and also a community of curious souls to engage with ideas and each other.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card" style="border-color:#67BA68">
+              <p class="card-title">Community</p>
+              <p class="card-body">The TEDxGateway community is a diverse one, both ethnically and socially. Our organisers, fellows, team members
+                and speakers all coalesce into one large, wondrous amalgamation of brilliant ideas and thoughts. We work
+                with, and around our speakers, and aim to cultivate their work through support and collaboration.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+            <div class="card" style="border-color:#27B7F6">
+              <p class="card-title">TEDxVJTI</p>
+              <p class="card-body">TEDxVJTI is an independently organised TED event operated under license from TED. At the day long conference
+                we will feature eminent speakers from different walks of life will share unique ideas from India and all
+                around the globe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="work-with-us">
+    <div class="row">
+      <div class="col-12 col-lg-6" style="padding:0">
+        <div class="partition-div background-black">
+          <div class="partition-text">
+            <h1>Work with us to create a better tomorrow</h1>
+            <button>Join</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6" style="padding:0">
+        <div class="partition-div background-red">
+          <div class="partition-text">
+            <h1>Register as a speaker and inspire millions</h1>
+            <button>Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="container col-lg-8 col-md-8 col-sm-12">
+      <p class="title">Frequently Asked Questions</p>
+      <hr/>
+      <div class="accordion">
+        <div class="accordion-item">
+          <a>How can I get in touch with your committee?</a>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <a>How can I recover my account?</a>
+          <div class="content">
+            <ol style="padding-left:20px">
+              <li>Click on
+                <b>Forgot Password</b>
+              </li>
+              <li>Enter your email ID</li>
+              <li>Enter your new password</li>
+              <li>Your account will be recovered</li>
+            </ol>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <a>I am willing to work in your committee. What work I can get to do?</a>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-us">
+    <div class="col-lg-10 col-md-10 col-sm-12 parent" style="margin:auto">
+      <p class="title">Contact Us</p>
+      <hr/>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 card-form">
+          <div class="card-title">Leave a message</div>
+          <div class="card-body">
+            <form>
+              <input id="name" placeholder="Name" />
+              <input id="email" placeholder="Email-ID" />
+              <input id="subject" placeholder="Subject" />
+              <textarea id="msg" rows="3" placeholder="Type your message here..."></textarea>
+              <button>SUBMIT</button>
+            </form>
+          </div>
+        </div>
+        <div class="headerDivider2"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12 card-location">
+          <div class="card-body">
+            <table>
+              <tr>
+                <td>
+                  <i class="fa fa-map-marker fa-lg"></i>
+                </td>
+                <td>
+                  <b>Find us at the office</b>
+                  <br/> Veermata Jijabai Technological Institute,
+                  <br/> H.R. Mahajani Marg,
+                  <br/> Mumbai-400019
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-phone fa-lg"></i>
+                </td>
+                <td>
+                  <b>Give us a ring</b>
+                  <br/> Nisarg Tole
+                  <br/> +91 8080672612
+                  <br/> 9am - 5pm
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fa fa-globe fa-lg"></i>
+                </td>
+                <td>
+                  <b>Connect with us</b>
+                  <br/>
+                </td>
+              </tr>
+            </table>
+            <div class="icons-div">
+              <div class="icons">
+                <i class="fa fa-instagram fa-2x"></i>
+              </div>
+              <div class="icons">
+                <i class="fa fa-envelope fa-2x"></i>
+              </div>
+              <div class="icons">
+                <i class="fa fa-facebook fa-2x"></i>
+              </div>
+              <div class="icons">
+                <i class="fa fa-twitter fa-2x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footer">
+    <div class="span-1 col-lg-4 col-md-4 col-sm-6 col-sm-6">
+      <p>&copy; 2018 TEDx VJTI</p>
+    </div>
+    <div class="span-2 col-lg-4 col-md-4 col-sm-6 col-sm-6">
+      <p>Made with &nbsp;
+        <i class="material-icons">favorite</i> &nbsp; Design Team</p>
+    </div>
+    <div class="span-3 col-lg-4 col-md-4 col-sm-12 col-sm-12">
+      <div>
+        <span>
+          <a href="">Home</a>
+        </span>
+        <span>
+          <a href="./events.html">Events</a>
+        </span>
+        <span>
+          <a href="./speakers.html">Speakers</a>
+        </span>
+        <span>
+          <a href="./sponsors.html">Partners</a>
+        </span>
+        <span>
+          <a href="./team.html" class="link-team">Our Team</a>
+        </span>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://use.fontawesome.com/b90386a39a.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <script src="js/scripts/moving-text.js"></script>
+  <script src="js/scripts/iframeDisplay.js"></script>
+  <script src="js/scripts/faq.js"></script>
+  <script src="js/scripts/index.js"></script>
+  <script src="js/scripts/comingsoonindex.js"></script>
+  <script src="js/scripts/slider.js"></script>
+
+</body>
+
+</html>

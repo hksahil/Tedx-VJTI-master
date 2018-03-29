@@ -1,0 +1,12 @@
+.events-page {
+    height: 100vh;
+	overflow: hidden;
+    .background-image {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background-image: url("../img/mic2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

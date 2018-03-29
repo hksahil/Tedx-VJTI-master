@@ -1,0 +1,40 @@
+.sidenav-slider {
+  z-index: 20;
+  width: 280px;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  left: -280px;
+  position: absolute;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  .navbar-brand {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 0;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 20px;
+    li {
+      a {
+        display: block;
+        padding-left: 24px;
+        height: 44px;
+        color: #757575;
+        line-height: 44px;
+        i {
+          transform: translate(0px, 7px);
+          margin-right: 12px;
+        }
+      }
+      a:hover {
+        text-decoration: none;
+      }
+      a.active {
+        background: #eeeeee;
+      }
+    }
+  }
+}

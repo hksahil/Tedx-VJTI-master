@@ -1,0 +1,85 @@
+.work-with-us {
+  background: url('../img/workplace.jpg') 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  .partition-div {
+    position: relative;
+    height: 600px;
+    .partition-text {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      h1 {
+        color: white;
+        font-size: 2rem;
+        display: block;
+        margin-bottom: 32px;
+      }
+      button {
+        border-radius: 10px;
+        height: 2.2rem;
+        width: 20%;
+        border: 1.5px solid #505040;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        background: rgb(217, 30, 24);
+        border-color: rgb(217, 30, 24);
+      }
+    }
+  }
+  .partition-div.background-black {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .partition-div.background-red {
+    background: rgba(255, 0, 0, 0.8);
+    .partition-text {
+      button {
+        border-radius: 10px;
+        height: 2.2rem;
+        width: 20%;
+        border: 1.5px solid #505040;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: black;
+        background: rgb(255, 255, 255);
+        border-color: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .work-with-us {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    .partition-div {
+      position: relative;
+      height: 360px;
+      .partition-text {
+        padding: 0 48px;
+        h1 {
+          font-size: 1.8rem;
+          margin-bottom: 28px;
+        }
+        button {
+          width: 40%;
+        }
+      }
+    }
+    .partition-div.background-red {
+      .partition-text {
+        button {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
